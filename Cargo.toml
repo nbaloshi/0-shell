@@ -1,0 +1,12 @@
+[package]
+name = "shell0"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "0-shell"
+path = "src/main.rs"
+
+[dependencies]
+libc = "0.2"
+chrono = "0.4"
